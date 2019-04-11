@@ -1,4 +1,3 @@
-
 module.exports = {
   consumer_key: 'U98eG2zKyy6DYuVkxMcuC6dqD',
   consumer_secret: '2uN57BsRzgHnUjOHU8P8v9Fu71MnGV6jNQoRTfroPyc4kUaBc5',

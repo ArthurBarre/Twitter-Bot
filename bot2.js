@@ -8,18 +8,20 @@ var config = require('./config');
 
 var T = new Twit(config);
 
-var tweet = {
-  status: 'Hello world from node.js'
-}
-T.post('statuses/update', tweet, tweeted);
+tweetIt();
 
-function tweeted(err, data, response) {
-  if (err) {
-    console.log('Problems !');
+function tweetIt() {
+  var tweet = {
+    status: 'Hello world from node.js'
   }
-  else {
-    console.log('It\'s ok !');
+  T.post('statuses/update', tweet, tweeted);
+
+  function tweeted(err, data, response) {
+    if (err) {
+      console.log('Problems !');
+    }
+    else {
+      console.log('It\'s ok !');
+    }
   }
 }
-
-
