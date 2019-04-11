@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/ArthurBarre/twitter-bot/issues"
   },
-  "homepage": "https://github.com/ArthurBarre/twitter-bot#readme"
+  "homepage": "https://github.com/ArthurBarre/twitter-bot#readme",
+  "devDependencies": {
+    "twit": "^2.2.11"
+  }
 }
