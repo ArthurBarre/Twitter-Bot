@@ -1,0 +1,22 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "The Arthur's Twitter Bot.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurBarre/Twitter-Bot.git"
+  },
+  "keywords": [
+    "twitterBot"
+  ],
+  "author": "MacArthur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArthurBarre/twitter-bot/issues"
+  },
+  "homepage": "https://github.com/ArthurBarre/twitter-bot#readme"
+}
